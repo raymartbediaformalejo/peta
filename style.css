@@ -1,0 +1,37 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+header{
+  display: flex;
+  background-color: #383838;
+  padding: 1em 0;
+}
+
+img {
+  margin: 0 auto;
+  object-fit: fill;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #383838;
+  padding: 1em 0;
+}
+
+.footer-hr {
+  width: 10%;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.footer-credit {
+  color: white;
+  margin: 0 auto;
+}
